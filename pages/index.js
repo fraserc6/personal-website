@@ -14,7 +14,7 @@ export default function Home() {
 			<img src="/gummy-coding-clipped.svg" className="mx-auto w-4/5 md:w-3/4 lg:w-2/3 xl:w-1/2" alt="Illustration by Ouch.pics" />
 		</div>
 		<div className="flex flex-grow items-end p-10">
-			<div className="flex flex-row items-end justify-between w-full">
+			<div className="grid grid-cols-1 lg:grid-cols-2 w-full">
 				<div>
 					<a href="https://twitter.com/fraser_cook" target="_BLANK" className="mr-4">
 						<FontAwesomeIcon icon={faTwitter} size="2x" color="#FFF" />
@@ -25,7 +25,7 @@ export default function Home() {
 					<h1 className="text-2xl font-bold text-white mt-5">Fraser Cook</h1>
 					<h2 className="text-lg text-gray-500">Software Developer / UI Designer</h2>
 				</div>
-				<div className="text-right">
+				<div className="flex justify-start items-end lg:justify-end text-right pt-5 lg:pt-0">
 					<span className="text-gray-500">Illustration by <a href="https://icons8.com" target="_BLANK">Ouch.pics</a></span>
 				</div>
 			</div>
