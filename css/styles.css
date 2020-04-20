@@ -1,4 +1,8 @@
 /* purgecss start ignore */
+@import '@fortawesome/fontawesome-svg-core/styles.css';
+/* purgecss end ignore */
+
+/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
 /* purgecss end ignore */
