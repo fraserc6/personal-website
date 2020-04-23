@@ -4,13 +4,13 @@ import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 export default function Home() {
   return (
-    <div className="bg-gray-900">
+    <div className="bg-gray-900 flex flex-grow">
       <Head>
         <title>Fraser Cook - Software Developer / UX Designer</title>
         <link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Head>
-	  <div className="flex flex-col flex-grow min-h-screen">
+	  <div className="flex flex-col flex-grow">
 		<div className="flex-none bg-white">
 			<img src="/gummy-coding-clipped.svg" className="mx-auto w-4/5 md:w-3/4 lg:w-2/3 xl:w-1/2" alt="Illustration by Ouch.pics" />
 		</div>
