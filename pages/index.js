@@ -8,6 +8,7 @@ export default function Home() {
       <Head>
         <title>Fraser Cook - Software Developer / UX Designer</title>
         <link rel="icon" href="/favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Head>
 	  <div className="flex flex-col flex-grow min-h-screen">
 		<div className="flex-none bg-white">
