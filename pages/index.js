@@ -4,7 +4,7 @@ import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 export default function Home() {
   return (
-    <div className="bg-gray-900">
+    <div className="bg-gray-900 flex flex-grow">
       <Head>
         <title>Fraser Cook - Software Developer / UX Designer</title>
         <link rel="icon" href="/favicon.ico" />
