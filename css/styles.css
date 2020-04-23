@@ -1,9 +1,13 @@
 /* purgecss start ignore */
 @import '@fortawesome/fontawesome-svg-core/styles.css';
-/* purgecss end ignore */
 
-/* purgecss start ignore */
 @tailwind base;
 @tailwind components;
-/* purgecss end ignore */
 @tailwind utilities;
+
+
+body, html { 
+	width: 100%; 
+	height: 100%;
+}
+/* purgecss end ignore */
