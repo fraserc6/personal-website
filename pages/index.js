@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 
 export default function Home() {
   return (
@@ -20,8 +20,11 @@ export default function Home() {
 					<a href="https://twitter.com/fraser_cook" target="_BLANK" className="mr-4">
 						<FontAwesomeIcon icon={faTwitter} size="2x" color="#FFF" />
 					</a>
-					<a href="https://github.com/fraserc6" target="_BLANK">
+					<a href="https://github.com/fraserc6" target="_BLANK" className="mr-4">
 						<FontAwesomeIcon icon={faGithub} size="2x" color="#FFF" />
+					</a>
+					<a href="https://www.linkedin.com/in/fraser-cook-985b0b86/" target="_BLANK">
+						<FontAwesomeIcon icon={faLinkedinIn} size="2x" color="#FFF" />
 					</a>
 					<h1 className="text-2xl font-bold text-white mt-5">Fraser Cook</h1>
 					<h2 className="text-lg text-gray-500">Software Developer / UX Designer</h2>
