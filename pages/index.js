@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="bg-gray-900 flex flex-grow">
       <Head>
-        <title>Fraser Cook - Software Developer / UX Designer</title>
+        <title>Fraser Cook - Software Developer / UI Designer</title>
         <link rel="icon" href="/favicon.ico" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Head>
@@ -27,7 +27,7 @@ export default function Home() {
 						<FontAwesomeIcon icon={faLinkedinIn} size="2x" color="#FFF" />
 					</a>
 					<h1 className="text-2xl font-bold text-white mt-5">Fraser Cook</h1>
-					<h2 className="text-lg text-gray-500">Software Developer / UX Designer</h2>
+					<h2 className="text-lg text-gray-500">Software Developer / UI Designer</h2>
 				</div>
 				<div className="flex justify-start items-end lg:justify-end text-right pt-5 lg:pt-0">
 					<span className="text-gray-500">Illustration by <a href="https://icons8.com" target="_BLANK">Ouch.pics</a></span>
