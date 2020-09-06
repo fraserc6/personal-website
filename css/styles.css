@@ -1,4 +1,5 @@
 /* purgecss start ignore */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;800&display=swap');
 @import '@fortawesome/fontawesome-svg-core/styles.css';
 
 @tailwind base;
@@ -7,13 +8,6 @@
 
 
 body, html { 
-	min-width: 100%; 
-	min-height: 100%;
-	display: flex;
-}
-
-#__next {
-	display: flex;
-	flex-grow: 1;
+	font-family: 'Inter', sans-serif;
 }
 /* purgecss end ignore */
