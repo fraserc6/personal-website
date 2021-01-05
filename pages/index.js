@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faTwitter, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faGithub, faTwitter, faLinkedinIn, faDribbble } from '@fortawesome/free-brands-svg-icons'
 
 export default function Home() {
   return (
@@ -22,6 +22,9 @@ export default function Home() {
 					</a>
 					<a href="https://github.com/fraserc6" target="_BLANK" className="mr-4">
 						<FontAwesomeIcon icon={faGithub} size="2x" color="#FFF" />
+					</a>
+					<a href="https://dribbble.com/fraser_cook" target="_BLANK" className="mr-4">
+						<FontAwesomeIcon icon={faDribbble} size="2x" color="#FFF" />
 					</a>
 					<a href="https://www.linkedin.com/in/fraser-cook-985b0b86/" target="_BLANK">
 						<FontAwesomeIcon icon={faLinkedinIn} size="2x" color="#FFF" />
