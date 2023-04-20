@@ -1,13 +1,12 @@
-/* purgecss start ignore */
-@import '@fortawesome/fontawesome-svg-core/styles.css';
+@import "@fortawesome/fontawesome-svg-core/styles.css";
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-body, html { 
-	min-width: 100%; 
+body,
+html {
+	min-width: 100%;
 	min-height: 100%;
 	display: flex;
 }
@@ -16,4 +15,3 @@ body, html {
 	display: flex;
 	flex-grow: 1;
 }
-/* purgecss end ignore */
