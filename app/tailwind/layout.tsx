@@ -18,7 +18,7 @@ export default function PageLayout({
 				<div className="sticky top-0 z-20">
 					<Navigation />
 				</div>
-				<div className="mt-8 prose prose-sm prose-slate prose-p:text-gray-600 prose-ul:text-gray-600 prose-ol:text-gray-600 prose-headings:font-medium prose-h1:text-lg prose-h2:text-base prose-h3:text-sm prose-h3:mb-3">
+				<div className="mt-8 prose prose-sm prose-slate prose-p:text-gray-600 prose-ul:text-gray-600 prose-ol:text-gray-600 prose-headings:font-medium prose-h1:text-lg prose-h2:text-base prose-h3:text-sm prose-h3:mb-3 prose-h3:mt-8">
 					{children}
 				</div>
 			</div>

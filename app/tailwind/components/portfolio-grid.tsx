@@ -62,7 +62,9 @@ const PortfolioItem = ({ image, alt }: { image: string; alt: string }) => {
 				}}
 				layout={true}
 				className={`${
-					isOpen ? "fixed m-auto inset-6" : "w-full rounded-lg absolute inset-0"
+					isOpen
+						? "fixed m-auto inset-6 max-w-6xl"
+						: "w-full rounded-lg absolute inset-0"
 				} aspect-video`}
 			>
 				<Image

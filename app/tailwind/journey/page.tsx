@@ -36,7 +36,7 @@ export default function SkillsetPage() {
 					</p>
 					<SkillList items={["ActionScript 2.0", "	ActionScript 3.0"]} />
 				</ContentGroup>
-				<ContentGroup label="2011" title="Discovering web development">
+				<ContentGroup label="2011" title="Discovering Web Development">
 					<p>
 						Despite becoming familiar with creating ridiculous 2D adventures,
 						the concept of building a webpage was still pretty alien to me by
@@ -52,7 +52,7 @@ export default function SkillsetPage() {
 					</p>
 					<SkillList items={["HTML", "CSS", "JavaScript", "jQuery"]} />
 				</ContentGroup>
-				<ContentGroup label="2015" title="Web frameworks and Bootstrap">
+				<ContentGroup label="2015" title="Frameworks & Bootstrap">
 					<p>
 						I could only go on using HTML, CSS and JavaScript exclusively for so
 						long. The benefit of taking on short term freelance projects meant I
@@ -107,7 +107,7 @@ export default function SkillsetPage() {
 					</p>
 					<SkillList items={["Figma"]} />
 				</ContentGroup>
-				<ContentGroup label="2021" title="Next.js / Vercel">
+				<ContentGroup label="2021" title="Next.js & Vercel">
 					<p>
 						One thing I dislike about development is battling with tooling to
 						get a single pixel rendering on screen. Next.js cracked this for me.

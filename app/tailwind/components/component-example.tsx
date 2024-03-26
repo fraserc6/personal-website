@@ -116,7 +116,7 @@ export default function ComponentExample() {
 									min="0"
 									max={sizes.length - 1}
 									step="1"
-									className="w-full appearance-none bg-zinc-200 h-1.5 rounded-full"
+									className="cursor-pointer w-full appearance-none bg-zinc-200 h-1.5 rounded-full"
 									value={sizes.findIndex((size) => size == selectedSize)}
 									onChange={(e) => setSize(sizes[parseInt(e.target.value)])}
 								/>
@@ -137,7 +137,7 @@ export default function ComponentExample() {
 									min="0"
 									max={radii.length - 1}
 									step="1"
-									className="w-full appearance-none bg-zinc-200 h-1.5 rounded-full"
+									className="cursor-pointer w-full appearance-none bg-zinc-200 h-1.5 rounded-full"
 									value={radii.findIndex((radius) => radius == selectedRadius)}
 									onChange={(e) => setRadius(radii[parseInt(e.target.value)])}
 								/>

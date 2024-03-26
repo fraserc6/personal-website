@@ -24,10 +24,10 @@ export default function SkillsetPage() {
 					title="Lead Frontend Developer & Designer at Covie"
 				>
 					<p>
-						Covie was founded to streamline the access of insurance data. Users
-						have access to various API's and tools that allow their own
-						customers to login and connect their insurance data which is
-						accessible to them via webhooks or the user dashboard.
+						Covie was founded to make insurance data more accessible. Users get
+						access to various APIs and tools that allow their own customers to
+						login and connect their insurance data. This data then becomes
+						accessible via webhooks or a dashboard.
 					</p>
 					<p>
 						Being the lead frontend engineer at Covie since its inception, my
@@ -47,10 +47,10 @@ export default function SkillsetPage() {
 					<ul>
 						<li>
 							Setting up and maintaining various CI pipelines and automation to
-							reduce regression, potential bugs and promote best practices.
+							reduce regression, potential bugs and promote best practices
 						</li>
-						<li>Translating specifications into actionable tasks.</li>
-						<li>Working closely with the backend team to steer API design.</li>
+						<li>Translating specifications into actionable tasks</li>
+						<li>Working closely with the backend team to steer API design</li>
 					</ul>
 					<p>
 						Covie has evolved over time to encompass a series of niche products,
@@ -205,7 +205,7 @@ export default function SkillsetPage() {
 						Built as a weekend project, Mailbum provides a number of
 						customisable, minimalistic email signature templates. It achieved
 						2nd spot for Product of the Day on Product Hunt and has been used by
-						over 40,000 people to date.{" "}
+						over.{" "}
 					</p>
 				</ContentGroup>
 				<ContentGroup

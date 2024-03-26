@@ -48,6 +48,8 @@ export default function MixBlendExample() {
 												)
 												if (currentIndex > 0) {
 													setSelectedMode(options[currentIndex - 1])
+												} else {
+													setSelectedMode(options[options.length - 1])
 												}
 											}}
 										>
@@ -64,6 +66,8 @@ export default function MixBlendExample() {
 												)
 												if (currentIndex < options.length - 1) {
 													setSelectedMode(options[currentIndex + 1])
+												} else {
+													setSelectedMode(options[0])
 												}
 											}}
 										>
