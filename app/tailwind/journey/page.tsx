@@ -83,7 +83,7 @@ export default function SkillsetPage() {
 					<p>
 						Trawling Twitter one day, I saw a Tweet about this book called
 						Refactoring UI. Skimming the pages, a lot of the lessons it was
-						conveying about the importance of space, colours and typography made
+						conveying about the importance of space, colors and typography made
 						sense. I could instantly relate it to what I felt I had learned in
 						my years replicating websites and developing my own “palette”.
 					</p>
@@ -102,7 +102,7 @@ export default function SkillsetPage() {
 						Much like moving from Bootstrap to Tailwind CSS or from Vanilla JS
 						to React, the jump from Photoshop to Figma really had me wondering
 						how I spent so long designing everything in Photoshop to begin with.
-						Figma is quick, focused on designing UI and makes it easy to
+						Figma is quick, optimised for designing UI and makes it easy to
 						collaborate.
 					</p>
 					<SkillList items={["Figma"]} />

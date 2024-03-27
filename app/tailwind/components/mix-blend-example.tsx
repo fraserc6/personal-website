@@ -119,7 +119,7 @@ export default function MixBlendExample() {
 				</div>
 			</div>
 			<div className="text-center py-3">
-				<p className="text-gray-400 text-xs">Dynamic mix blend example</p>
+				<p className="text-gray-400 text-xs">Interactive mix blend example</p>
 			</div>
 		</div>
 	)

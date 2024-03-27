@@ -26,13 +26,12 @@ export default function SkillsetPage() {
 					<p>
 						Covie was founded to make insurance data more accessible. Users get
 						access to various APIs and tools that allow their own customers to
-						login and connect their insurance data. This data then becomes
-						accessible via webhooks or a dashboard.
+						login and connect their insurance data.
 					</p>
 					<p>
 						Being the lead frontend engineer at Covie since its inception, my
-						role is to establish the core design system and build anything the
-						users interact with, such as:
+						role was initially to establish the core design system and build
+						anything the users interact with, such as:
 					</p>
 					<ul>
 						<li>Marketing sites</li>
@@ -58,43 +57,18 @@ export default function SkillsetPage() {
 						exclusive concierge service, and Airjuster; a platform to help
 						insurers process claims efficiently.
 					</p>
-					{/* <ul>
-						<li>Established the core design system and component library.</li>
-						<li>
-							Lead on the design and frontend code for applications central to
-							the product including the marketing website, customer dashboard
-							and policy access tooling.
-						</li>
-						<li>
-							Established{" "}
-							<a
-								href="https://developer.covie.com/docs/link-access"
-								target="_blank"
-							>
-								documentation for the JS SDK
-							</a>
-							.
-						</li>
-						<li>
-							Implemented automated testing and wider CI / deployment pipeline.
-						</li>
-						<li>
-							Work product specifications into functional requirements and
-							actionable tasks.{" "}
-						</li>
-					</ul> */}
 					<PortfolioGrid items={portfolio.covie} />
 				</ContentGroup>
 				<br />
 				<ContentGroup
 					label="2021 - 2022"
-					title="Frontend & Design at NHSX AI Lab (National COVID-19 Chest Image Database)"
+					title="Frontend & Design at NHSX AI Lab (NCCID)"
 				>
 					<p>
-						The NCCID was set up in response to COVID-19 in order to establish a
-						national database of various medical imagery in order to increase
-						understanding of the virus and interface with technology to improve
-						response and care.
+						The NCCID (National COVID-19 Chest Image Database) was set up by
+						NHSX in response to COVID-19 in order to establish a national
+						database of medical imagery to increase our understanding of the
+						virus and to utilise AI technology to improve response and care.
 					</p>
 					<p>
 						I joined the team to help communicate the project with key
@@ -139,10 +113,9 @@ export default function SkillsetPage() {
 							from a given X-ray image.
 						</li>
 						<li>
-							Developed a high fidelity prototype in order to explore the
-							potential next phase of the project; the focus being a platform
-							that allows models to be uploaded and trained against remote,
-							anonymised data sets.{" "}
+							Developed a prototype to explore the next evolution of the
+							project; a platform that allows AI models to be uploaded and
+							trained against remote, anonymised data sets.{" "}
 						</li>
 					</ul>
 					<PortfolioGrid items={portfolio.nhs} />
@@ -150,9 +123,10 @@ export default function SkillsetPage() {
 				<br />
 				<ContentGroup label="2015 - present" title="Founder at TNL Digital">
 					<p>
-						I founded TNL Digital while at University to deliver high quality
-						digital experiences and strategy. The agencies portfolio includes
-						multiple national and international companies and brands.
+						I founded TNL Digital whilst studying at University. The agency
+						delivers high quality digital experiences and strategy. Its
+						portfolio encompasses a wide range of national and international
+						companies and brands, to include:
 					</p>
 					<ul>
 						<li>
@@ -181,7 +155,7 @@ export default function SkillsetPage() {
 							alternative platform to their existing external solution.
 						</li>
 						<li>
-							Supported the national launch of the{" "}
+							Developed a touch table and supported the national launch of the{" "}
 							<a
 								target="_blank"
 								href="https://www.birminghammail.co.uk/whats-on/arts-culture-news/staffordshire-hoard-comes-life-new-7934198"
@@ -189,9 +163,6 @@ export default function SkillsetPage() {
 								Staffordshire Hoard exhibition
 							</a>{" "}
 							at Birmingham Museum &amp; Art Gallery.
-						</li>
-						<li>
-							Designed, built and maintained a large quantity of other projects.
 						</li>
 					</ul>
 					<PortfolioGrid items={portfolio.tnl} />
@@ -201,11 +172,11 @@ export default function SkillsetPage() {
 			<h2 className="mb-6">Side Projects</h2>
 			<dl className="not-prose space-y-6">
 				<ContentGroup label="2020" title="Mailbum" href="https://mailbum.io/">
-					<p className="text-sm text-gray-500 leading-6">
+					<p className="text-gray-500 leading-6">
 						Built as a weekend project, Mailbum provides a number of
 						customisable, minimalistic email signature templates. It achieved
 						2nd spot for Product of the Day on Product Hunt and has been used by
-						over.{" "}
+						over 50,000 customers to date.
 					</p>
 				</ContentGroup>
 				<ContentGroup
@@ -213,7 +184,7 @@ export default function SkillsetPage() {
 					title="Better Cookies"
 					href="https://cookies.so"
 				>
-					<p className="text-sm text-gray-500 leading-6">
+					<p className="text-gray-500 leading-6">
 						Providing a simple way to add a decent looking cookie banner to your
 						website with just a few lines of code.
 					</p>

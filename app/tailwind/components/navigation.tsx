@@ -66,10 +66,12 @@ export default function Navigation() {
 		},
 	]
 	return (
-		<nav className="mt-6 flex border-b overflow-x-auto overflow-y-hidden bg-white">
-			{items.map((item) => (
-				<NavbarItem key={item.label} {...item} />
-			))}
-		</nav>
+		<div className="mt-6 pb-3 -mb-3 overflow-x-auto overflow-y-hidden">
+			<nav className="flex border-b bg-white">
+				{items.map((item) => (
+					<NavbarItem key={item.label} {...item} />
+				))}
+			</nav>
+		</div>
 	)
 }

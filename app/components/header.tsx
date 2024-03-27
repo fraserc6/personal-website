@@ -47,7 +47,7 @@ export default function Header({
 }) {
 	return (
 		<>
-			<header className="flex flex-col sm:flex-row gap-4 sm:items-center">
+			<header className="flex flex-col sm:flex-row gap-6 sm:items-center">
 				<Link href="/" className="relative w-24 h-24 shrink-0">
 					<Image
 						src="/headshot.jpeg"

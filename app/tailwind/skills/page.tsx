@@ -8,7 +8,7 @@ export default function SkillsPage() {
 					<li>Experienced in building high quality user interfaces.</li>
 					<li>Proficient in building versatile component libraries.</li>
 					<li>Comfortable integrating APIs and external services.</li>
-					<li>Passionate about detail and writing clean, efficient code.</li>
+					<li>Stickler for detail and writing clean, efficient code.</li>
 				</ul>
 			</ContentGroup>
 			<ContentGroup label="Design">
